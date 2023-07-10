@@ -82,5 +82,37 @@
   <!-- Load additional JS scripts here -->
   <script type="text/javascript" src="script.js"></script>
 
+  <!-- Add the list of keywords -->
+  <script>
+    var keywords = ['NFT', 'Crypto-art', 'CryptoPunks', 'Beeple', 'Art génératif', 'DeepDream', 'GAN', 'Blockchain', 'Smart contracts', 'Ethereum', 'Cryptocurrency', 'Digital collectibles', 'Virtual art', 'AI art', 'Digital ownership', 'Augmented reality art', 'Virtual reality art', 'Neural networks', 'Machine learning', 'Computer vision'];
+
+    $(document).ready(function() {
+      // Set the meta keywords tag
+      var metaKeywords = keywords.join(", ");
+      $("head").append('<meta name="keywords" content="' + metaKeywords + '">');
+
+      // Set the title
+      var titleKeywords = keywords.slice(0, 3).join(" ");
+      $("title").text(titleKeywords + " - Introduction to AI-Generated NFTs - Explore on OpenSea");
+
+      // Update the H1 heading
+      var h1Keywords = keywords.slice(0, 5).join(" ");
+      $("h1").text("AI-Generated NFTs - Explore " + h1Keywords);
+
+      // Add a counter to track the number of visits
+      var counter = localStorage.getItem("visitCounter");
+      if (!counter) {
+        counter = 1;
+      } else {
+        counter++;
+      }
+      localStorage.setItem("visitCounter", counter);
+
+      // Display the visit counter
+      var visitText = "Visits: " + counter;
+      $("footer").text(visitText);
+    });
+  </script>
+
 </body>
 </html>
