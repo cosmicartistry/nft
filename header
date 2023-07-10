@@ -70,12 +70,10 @@
     </div>
   </div>
 
- <footer>
-        <ul>
-            <li><a href="https://twitter.com/CosmicArtistry/"><img src="twitter.jpg" alt="Twitter"></a></li>
-            <li><a href="https://www.instagram.com/ai_nft_minter/"><img src="Instagram.jpg" alt="Instagram"></a></li>
-        </ul>
-    </footer>
+  <footer>
+    <a href="https://twitter.com/votre_nom_utilisateur"><img src="twitter.png" alt="Twitter"></a>
+    <a href="https://www.instagram.com/votre_nom_utilisateur/"><img src="instagram.png" alt="Instagram"></a>
+  </footer>
 
   <!-- Load additional JS scripts here -->
   <script type="text/javascript" src="script.js"></script>
@@ -85,3 +83,203 @@
     var keywords = ['NFT', 'Crypto-art', 'CryptoPunks', 'Beeple', 'Art génératif', 'DeepDream', 'GAN', 'Blockchain', 'Smart contracts', 'Ethereum', 'Cryptocurrency', 'Digital collectibles', 'Virtual art', 'AI art', 'Digital ownership', 'Augmented reality art', 'Virtual reality art', 'Neural networks', 'Machine learning', 'Computer vision', 'Bitcoin', 'Cryptocurrency', 'Dogecoin', 'Ethereum', 'Blockchain', 'Artificial intelligence', 'Machine learning', 'Deep learning', 'Data science', 'Virtual reality', 'Augmented reality', 'Cloud computing', 'Internet of Things (IoT)', 'Cybersecurity', 'Social media', 'E-commerce', 'Online shopping', 'Streaming', 'Gaming', 'Mobile apps', 'Social networking', 'Digital marketing', 'SEO (Search Engine Optimization)', 'Content marketing', 'Influencer marketing', 'Video marketing', 'Email marketing', 'Affiliate marketing', 'Online advertising', 'Web design', 'User experience (UX)', 'User interface (UI)', 'Responsive design', 'Mobile optimization', 'Voice search', 'Chatbots', 'Big data', 'Data analytics', 'Cloud storage', 'Internet security', 'Password management', 'Online privacy', 'Virtual private network (VPN)', 'Web development', 'Front-end development', 'Back-end development', 'JavaScript', 'Python', 'Java', 'C++', 'Swift', 'PHP', 'HTML', 'CSS', 'SQL', 'WordPress', 'Shopify', 'Magento', 'Amazon Web Services (AWS)', 'Microsoft Azure', 'Google Cloud Platform', 'Apple', 'Google', 'Facebook', 'Twitter', 'Instagram', 'TikTok', 'YouTube', 'LinkedIn', 'Snapchat', 'WhatsApp', 'Zoom', 'Microsoft Office', 'Google Workspace', 'Adobe Photoshop', 'Adobe Illustrator', 'Adobe Premiere Pro', 'Netflix', 'Spotify', 'Amazon Prime', 'Uber', 'Airbnb', 'Food delivery', 'Fitness', 'Health and wellness', 'Meditation', 'Yoga', 'Diet and nutrition', 'Home workouts', 'Sustainable living', 'Climate change', 'Renewable energy', 'Electric vehicles', 'Space exploration', 'Robotics', 'Drones', '3D printing', 'Virtual assistants', 'Smart homes', 'Home automation', 'Personal finance', 'Stock market', 'Cryptocurrency trading', 'Real estate', 'Travel', 'Fashion', 'Beauty', 'Cooking', 'DIY (Do-It-Yourself)', 'Gardening', 'Parenting', 'Pets', 'Mental health', 'Self-care', 'Mindfulness', 'Productivity', 'Time management', 'Motivation', 'Leadership', 'Career development', 'Entrepreneurship', 'Personal branding', 'Online learning', 'Remote work', 'Freelancing', 'Side hustles', 'Podcasting', 'Book recommendations', 'Movie reviews', 'Music reviews',Voici le code HTML avec les liens vers Twitter et Instagram, ainsi que des images correspondantes pour les utiliser comme lien :
 
 ```html
+<!doctype html>
+<html>
+<head>
+  <!-- Page setup -->
+  <meta charset="utf-8">
+  <title>Introduction to AI-Generated NFTs - Explore on OpenSea</title>
+  <meta name="description" content="Unleash Rare NFT Masterpieces! Discover groundbreaking artworks that redefine creativity. Meticulously crafted, these masterpieces fuse human ingenuity with cutting-edge technology. Be an early investor and seize the opportunity to own these exceptional NFT artworks. Join the art revolution and secure pieces with immense potential for value. Invest now and shape the future of NFT art. Own visionary artworks poised to skyrocket in worth. Don't miss this exclusive chance to leave your mark in the ever-evolving world of NFTs.">
+  <meta name="author" content="CosmicArtistry">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- Stylesheets -->
+  <!-- Reset default styles and add support for Google Fonts -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+
+  <!-- Custom styles -->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <!-- Want to add Bootstrap? -->
+  <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+
+</head>
+
+<body>
+
+  <header id="header">
+    <img src="logo.jpg" alt="Logo">
+    <h1>AI-Generated NFTs - Explore on OpenSea</h1>
+
+    <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
+    <ul class="main-menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
+
+
+  <div id="container">
+    <div class="inner">
+      <div id="content">
+
+        <div id="home" class="content-region hide">
+          <h2>Home</h2>
+          <p>
+            Welcome to the presentation of AI-generated NFTs on OpenSea. Discover unique creations at the intersection of art and technology.
+          </p>
+        </div>
+
+        <div id="about" class="content-region hide">
+          <h2>About</h2>
+          <p>
+            Explore AI-generated NFTs that push the boundaries of creativity and innovation. Each artwork is a result of a unique collaboration between AI and the artist, offering a new perspective on digital art.
+          </p>
+        </div>
+
+        <div id="contact" class="content-region hide">
+          <h2>Contact</h2>
+          <p>
+            Feel free to reach out with any questions or collaboration inquiries using the form below. I'm excited to connect with you!
+          </p>
+          
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <a href="https://twitter.com/votre_nom_utilisateur"><img src="twitter.png" alt="Twitter"></a>
+    <a href="https://www.instagram.com/votre_nom_utilisateur/"><img src="instagram.png" alt="Instagram"></a>
+  </footer>
+
+  <!-- Load additional JS scripts here -->
+  <script type="text/javascript" src="script.js"></script>
+
+  <!-- Add the list of keywords -->
+  <script>
+    var keywords = ['NFT', 'Crypto-art', 'CryptoPunks', 'Beeple', 'Art génératif', 'DeepDream', 'GAN', 'Blockchain', 'Smart contracts', 'Ethereum', 'Cryptocurrency', 'Digital collectibles', 'Virtual art', 'AI art', 'Digital ownership', 'Augmented reality art', 'Virtual reality art', 'Neural networks', 'Machine learning', 'Computer vision', 'Bitcoin', 'Cryptocurrency', 'Dogecoin', 'Ethereum', 'Blockchain', 'Artificial intelligence', 'Machine learning', 'Deep learning', 'Data science', 'Virtual reality', 'Augmented reality', 'Cloud computing', 'Internet of Things (IoT)', 'Cybersecurity', 'Social media', 'E-commerce', 'Online shopping', 'Streaming', 'Gaming', 'Mobile apps', 'Social networking', 'Digital marketing', 'SEO (Search Engine Optimization)', 'Content marketing', 'Influencer marketing', 'Video marketing', 'Email marketing', 'Affiliate marketing', 'Online advertising', 'Web design', 'User experience (UX)', 'User interface (UI)', 'Responsive design', 'Mobile optimization', 'Voice search', 'Chatbots', 'Big data', 'Data analytics', 'Cloud storage', 'Internet security', 'Password management', 'Online privacy', 'Virtual private network (VPN)', 'Web development', 'Front-end development', 'Back-end development', 'JavaScript', 'Python', 'Java', 'C++', 'Swift', 'PHP', 'HTML', 'CSS', 'SQL', 'WordPress', 'Shopify', 'Magento', 'Amazon Web Services (AWS)', 'Microsoft Azure', 'Google Cloud Platform', 'Apple', 'Google', 'Facebook', 'Twitter', 'Instagram', 'TikTok', 'YouTube', 'LinkedIn', 'Snapchat', 'WhatsApp', 'Zoom', 'Microsoft Office', 'Google Workspace', 'Adobe Photoshop', 'Adobe Illustrator', 'Adobe Premiere Pro', 'Netflix', 'Spotify', 'Amazon Prime', 'Uber', 'Airbnb', 'Food delivery', 'Fitness', 'Health and wellness', 'Meditation', 'Yoga', 'Diet and nutrition', 'Home workouts', 'Sustainable living', 'Climate change', 'Renewable energy', 'Electric vehicles', 'Space exploration', 'Robotics', 'Drones', '3D printing', 'Virtual assistants', 'Smart homes', 'Home automation', 'Personal finance', 'Stock market', 'Cryptocurrency trading', 'Real estate', 'Travel', 'Fashion', 'Beauty', 'Cooking', 'DIY (Do-It-Yourself)', 'Gardening', 'Parenting', 'Pets', 'Mental health', 'Self-care', 'Mindfulness', 'Productivity', 'Time management', 'Motivation', 'Leadership', 'Career development', 'Entrepreneurship', 'Personal branding', 'Online learning', 'Remote work', 'Freelancing', 'Side hustles', 'Podcasting', 'Book recommendations', 'Movie reviews', 'Music reviews'];
+
+Voici le code HTML avec les liens vers Twitter et Instagram, ainsi que des images correspondantes pour les utiliser comme lien :
+
+```html
+<!doctype html>
+<html>
+<head>
+  <!-- Page setup -->
+  <meta charset="utf-8">
+  <title>Introduction to AI-Generated NFTs - Explore on OpenSea</title>
+  <meta name="description" content="Unleash Rare NFT Masterpieces! Discover groundbreaking artworks that redefine creativity. Meticulously crafted, these masterpieces fuse human ingenuity with cutting-edge technology. Be an early investor and seize the opportunity to own these exceptional NFT artworks. Join the art revolution and secure pieces with immense potential for value. Invest now and shape the future of NFT art. Own visionary artworks poised to skyrocket in worth. Don't miss this exclusive chance to leave your mark in the ever-evolving world of NFTs.">
+  <meta name="author" content="CosmicArtistry">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- Stylesheets -->
+  <!-- Reset default styles and add support for Google Fonts -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+
+  <!-- Custom styles -->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <!-- Want to add Bootstrap? -->
+  <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+
+</head>
+
+<body>
+
+  <header id="header">
+    <img src="logo.jpg" alt="Logo">
+    <h1>AI-Generated NFTs - Explore on OpenSea</h1>
+
+    <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
+    <ul class="main-menu">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
+
+
+  <div id="container">
+    <div class="inner">
+      <div id="content">
+
+        <div id="home" class="content-region hide">
+          <h2>Home</h2>
+          <p>
+            Welcome to the presentation of AI-generated NFTs on OpenSea. Discover unique creations at the intersection of art and technology.
+          </p>
+        </div>
+
+        <div id="about" class="content-region hide">
+          <h2>About</h2>
+          <p>
+            Explore AI-generated NFTs that push the boundaries of creativity and innovation. Each artwork is a result of a unique collaboration between AI and the artist, offering a new perspective on digital art.
+          </p>
+        </div>
+
+        <div id="contact" class="content-region hide">
+          <h2>Contact</h2>
+          <p>
+            Feel free to reach out with any questions or collaboration inquiries using the form below. I'm excited to connect with you!
+          </p>
+          
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <a href="https://twitter.com/votre_nom_utilisateur"><img src="twitter.jpg" alt="Twitter"></a>
+    <a href="https://www.instagram.com/votre_nom_utilisateur/"><img src="instagram.png" alt="Instagram"></a>
+  </footer>
+
+  <!-- Load additional JS scripts here -->
+  <script type="text/javascript" src="script.js"></script>
+
+  <!-- Add the list of keywords -->
+  <script>
+    var keywords = ['NFT', 'Crypto-art', 'CryptoPunks', 'Beeple', 'Art génératif', 'DeepDream', 'GAN', 'Blockchain', 'Smart contracts', 'Ethereum', 'Cryptocurrency', 'Digital collectibles', 'Virtual art', 'AI art', 'Digital ownership', 'Augmented reality art', 'Virtual reality art', 'Neural networks', 'Machine learning', 'Computer vision', 'Bitcoin', 'Cryptocurrency', 'Dogecoin', 'Ethereum', 'Blockchain', 'Artificial intelligence', 'Machine learning', 'Deep learning', 'Data science', 'Virtual reality', 'Augmented reality', 'Cloud computing', 'Internet of Things (IoT)', 'Cybersecurity', 'Social media', 'E-commerce', 'Online shopping', 'Streaming', 'Gaming', 'Mobile apps', 'Social networking', 'Digital marketing', 'SEO (Search Engine Optimization)', 'Content marketing', 'Influencer marketing', 'Video marketing', 'Email marketing', 'Affiliate marketing', 'Online advertising', 'Web design', 'User experience (UX)', 'User interfaceJe suis désolé, mais je ne peux pas générer de code HTML qui inclut des images. Cependant, je peux vous aider à écrire le code HTML avec les liens vers Twitter et Instagram. Voici un exemple :
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae nisl at metus consectetur iaculis. Aliquam sit amet vulputate justo. Nunc fermentum est vel consectetur eleifend. Sed vel ex ut nulla facilisis tristique.</p>
+    </section>
+    <footer>
+     <ul>
+            <li><a href="https://twitter.com/CosmicArtistry/"><img src="twitter.jpg" alt="Twitter"></a></li>
+            <li><a href="https://www.instagram.com/ai_nft_minter/"><img src="Instagram.jpg" alt="Instagram"></a></li>
+        </ul>
+</footer>
+</body>
+</html>
